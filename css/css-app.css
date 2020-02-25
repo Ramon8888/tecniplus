@@ -704,16 +704,15 @@ a:hover {
 /* CONTACTO ESTILO */
 
 #contacto {
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
 }
 
-
-/* .container {
+.container {
     max-width: 1170px;
     margin-left: auto;
     margin-right: auto;
     padding: 1.5em;
-  } */
+}
 
 ul {
     list-style: none;
