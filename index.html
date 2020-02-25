@@ -202,27 +202,7 @@
         </div>
     </div>
 
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="images/t1.jpeg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="images/t2.jpeg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="images/t3.jpeg" class="d-block w-100" alt="...">
-            </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
-    </div>
+
     <div id="intro">
         <div class="container">
             <div class="row">
@@ -475,47 +455,119 @@
         </div>
     </div>
     <!-- /.CONTACTO -->
-    <div id="contacto">
-        <div class="content">
+    <footer>
+        <!-- Widgets Start -->
+        <div id="contacto" class="footer-widgets">
+            <div class="container">
+                <h1 style="text-align: center;">Contacto</h1>
+                <div class="row">
+                    <div class="col-md-6 col-xl-3">
+                        <div class="single-widget contact-widget" data-aos="fade-up" data-aos-delay="0">
+                            <h6 class="widget-tiltle">&nbsp;</h6>
+                            <p>Envíanos un mensaje</p>
+                            <div class="media">
+                                <i class="fa fa-map-marker"></i>
+                                <div class="media-body ml-3">
+                                    <h6>Dirección</h6>
+                                    Poniente 122 S/N Gustavo Madero C.P. 07750
+                                </div>
+                            </div>
+                            <div class="media">
+                                <i class="fa fa-envelope-o"></i>
+                                <div class="media-body ml-3">
+                                    <h6>
+                                        ¿Tiene alguna pregunta?</h6>
+                                    <a href="mailto:contacto@tecniplus.com">contacto@tecniplus.com</a>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <i class="fa fa-phone"></i>
+                                <div class="media-body ml-3">
+                                    <h6>Teléfono</h6>
+                                    <a href="tel:+525563822499">5563822499</a>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <i class="fa fa-whatsapp"></i>
+                                <div class="media-body ml-3">
+                                    <h6>Whatsapp</h6>
+                                    <a href="https://wa.me/525540620423">5540620423</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-            <h1 class="logo">Contacto <span>TecniPlus</span></h1>
-
-            <div class="contact-wrapper animated bounceInUp">
-                <div class="contact-form">
-                    <!-- <h3>Contact us</h3> -->
-                    <form action="">
-                        <p>
-                            <label>Nombre</label>
-                            <input type="text" name="fullname">
-                        </p>
-                        <p>
-                            <label>Correo</label>
-                            <input type="email" name="email">
-                        </p>
-                        <p>
-                            <label>Movil</label>
-                            <input type="tel" name="phone">
-                        </p>
-                        <p>
-                            <label>Asunto</label>
-                            <input type="text" name="affair">
-                        </p>
-                        <p class="block">
-                            <label>Mensaje</label>
-                            <textarea name="message" rows="3"></textarea>
-                        </p>
-                        <p class="block">
-                            <button>
+                    <div class="col-md-12 col-xl-6">
+                        <div class="content">
+                            <div class="contact-wrapper animated bounceInUp">
+                                <div class="contact-form">
+                                    <h3></h3>
+                                    <form action="enviar.php">
+                                        <p>
+                                            <label>Nombre</label>
+                                            <input type="text" name="name">
+                                        </p>
+                                        <p>
+                                            <label>Correo</label>
+                                            <input type="email" name="email">
+                                        </p>
+                                        <p>
+                                            <label>Numero Telefónico</label>
+                                            <input type="tel" name="phone">
+                                        </p>
+                                        <p>
+                                            <label>Asunto</label>
+                                            <input type="text" name="affair">
+                                        </p>
+                                        <p class="block">
+                                            <label>Mensaje</label>
+                                            <textarea name="message" rows="3"></textarea>
+                                        </p>
+                                        <p class="block">
+                                            <button>
                             Enviar
                         </button>
+                                        </p>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-6 col-xl-3">
+
+                        <div class="single-widget subscribe-widget" data-aos="fade-up" data-aos-delay="800">
+
+                            <ul class="nav social-nav">
+                                <li><a href="https://www.facebook.com/gruponarmar/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                <!-- <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li> -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Widgets End -->
+        <!-- Foot Note Start -->
+        <div class="foot-note">
+            <div class="container">
+                <div class="footer-content text-center text-lg-left d-lg-flex justify-content-between align-items-center">
+                    <p class="mb-0" data-aos="fade-right" data-aos-offset="0">&copy; Todos los derechos reservados <a href="http://gruponarmar.com/" target="_blank" class="fh5-link">Grupo Narmar</a>.</p>
+                    <div align="right">
+                        <p>
+                            <a href="https://arca-soft.com/"> Desarrollado Por &copy;ArcaSoft</a>
                         </p>
-                    </form>
+                    </div>
                 </div>
 
             </div>
-
         </div>
-    </div>
+        <!-- Foot Note End -->
+    </footer>
     <!-- /.footer -->
     <footer id="footer">
         <div class="container">
