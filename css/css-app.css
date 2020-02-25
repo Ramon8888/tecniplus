@@ -1180,18 +1180,4 @@ ul {
     .action h2 {
         margin: 70px 0 20px;
     }
-    /* whats */
-    .btn-whatsapp {
-        display: block;
-        width: 70px;
-        height: 70px;
-        color#fff;
-        position: fixed;
-        right: 20px;
-        bottom: 20px;
-        border-radius: 50%;
-        line-height: 80px;
-        text-align: center;
-        z-index: 999;
-    }
 }
