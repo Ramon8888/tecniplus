@@ -1211,7 +1211,7 @@ ul {
 .slider ul {
     display: flex;
     padding: 0;
-    width: 200;
+    width: 500;
     animation: cambio 20s infinite alternate linear;
 }
 
@@ -1221,7 +1221,7 @@ ul {
 }
 
 .slider img {
-    width: 100%;
+    width: 50%;
 }
 
 @keyframes cambio {
