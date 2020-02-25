@@ -41,7 +41,14 @@
             z-index: 999;
         }
     </style>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
 
 <body data-spy="scroll" data-target="#navbar-scroll">
@@ -195,57 +202,63 @@
                     </p>
 
                     <div class="btn-section"><a href="#contacto" class="btn-default">Contacto</a></div>
-                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-
-                    </div>
-                </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="images/t1.jpeg" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="images/t2.jpeg" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="images/t3.jpeg" class="d-block w-100" alt="...">
-                    </div>
                 </div>
 
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="images/t1.jpeg" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="images/t2.jpeg" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="images/t3.jpeg" alt="Third slide">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
 
 
+            <div id="intro">
+                <div class="container">
+                    <div class="row">
 
+                        <!-- /.intro content -->
+                        <div class="col-md-12 wow slideInRight">
+                            <h2>Servicio y reparación</h2>
+                            <p>Nuestro servicio técnico especializado consta de análisis y revisión de la falla, brindándole un presupuesto competitivo, garantía y una excelente atención personalizada.<br> Contamos con refacciones originales y mano de obra
+                                calificada para garantizar la calidad y el buen funcionamiento de sus equipos.
+                            </p>
 
-                <div id="intro">
-                    <div class="container">
-                        <div class="row">
+                            <div class="btn-section"><a href="#contacto" class="btn-default">Contacto</a></div>
 
-                            <!-- /.intro content -->
-                            <div class="col-md-12 wow slideInRight">
-                                <h2>Servicio y reparación</h2>
-                                <p>Nuestro servicio técnico especializado consta de análisis y revisión de la falla, brindándole un presupuesto competitivo, garantía y una excelente atención personalizada.<br> Contamos con refacciones originales y mano de
-                                    obra calificada para garantizar la calidad y el buen funcionamiento de sus equipos.
-                                </p>
-
-                                <div class="btn-section"><a href="#contacto" class="btn-default">Contacto</a></div>
-
-                            </div>
-
-                            <!-- /.feature content -->
-
-
-                            <!-- /.feature image -->
-                            <div class="col-md-6 feature-2-pic wow fadeInRight">
-                                <img src="images/man.jpg" alt="image" class="img-responsive">
-                            </div>
-                            <div class="col-md-6 intro-pic wow slideInLeft">
-                                <img src="images/repa.jpg" alt="image" class="img-responsive">
-                            </div>
                         </div>
 
+                        <!-- /.feature content -->
+
+
+                        <!-- /.feature image -->
+                        <div class="col-md-6 feature-2-pic wow fadeInRight">
+                            <img src="images/man.jpg" alt="image" class="img-responsive">
+                        </div>
+                        <div class="col-md-6 intro-pic wow slideInLeft">
+                            <img src="images/repa.jpg" alt="image" class="img-responsive">
+                        </div>
                     </div>
+
                 </div>
-                <!-- 3r servicio -->
-                <!-- <div>
+            </div>
+            <!-- 3r servicio -->
+            <!-- <div>
         <div class="container">
             <div class="row">
                 <h2 style="text-align: center;">Marcas de <span class="highlight">Refrigeradores</span> </h2>
@@ -256,78 +269,77 @@
         </div>
     </div> -->
 
-                <div id="intro">
-                    <div class="container">
-                        <div class="row">
-                            <!-- /.intro image -->
-                            <div class="col-md-6 intro-pic wow slideInLeft">
-                                <img src="images/insta.jpg" alt="image" class="img-responsive">
-                            </div>
+            <div id="intro">
+                <div class="container">
+                    <div class="row">
+                        <!-- /.intro image -->
+                        <div class="col-md-6 intro-pic wow slideInLeft">
+                            <img src="images/insta.jpg" alt="image" class="img-responsive">
+                        </div>
 
-                            <!-- /.intro content -->
-                            <div class="col-md-6 wow slideInRight">
-                                <h2>INSTALACIONES</h2>
-                                <p>Nuestros técnicos están en constante actualización para brindarle el mejor servicio en la instalación de sus equipos en base a los lineamientos establecidos por el fabricante, garantizando un buen funcionamiento de sus
-                                    equipos.
-                                    <!-- <a href="#">Great marketing</a> makes the customer feel smart, - Joe Chernov. Never doubt a small group of thoughtful, committed people can change the world. Indeed, it is the only thing
+                        <!-- /.intro content -->
+                        <div class="col-md-6 wow slideInRight">
+                            <h2>INSTALACIONES</h2>
+                            <p>Nuestros técnicos están en constante actualización para brindarle el mejor servicio en la instalación de sus equipos en base a los lineamientos establecidos por el fabricante, garantizando un buen funcionamiento de sus equipos.
+                                <!-- <a href="#">Great marketing</a> makes the customer feel smart, - Joe Chernov. Never doubt a small group of thoughtful, committed people can change the world. Indeed, it is the only thing
                         that ever has, - Margaret Mead. The best way to predict the future is to create it, - Peter Drucker. -->
-                                </p>
+                            </p>
 
-                                <div class="btn-section"><a href="#contacto" class="btn-default">Contacto</a></div>
+                            <div class="btn-section"><a href="#contacto" class="btn-default">Contacto</a></div>
 
-                            </div>
                         </div>
                     </div>
                 </div>
+            </div>
 
 
 
 
 
 
-                <!-- /.feature section -->
-                <div id="feature">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-10 col-md-offset-1 col-sm-12 text-center feature-title">
+            <!-- /.feature section -->
+            <div id="feature">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-10 col-md-offset-1 col-sm-12 text-center feature-title">
 
-                                <!-- /.feature title -->
-                                <h2>Servicios</h2>
+                            <!-- /.feature title -->
+                            <h2>Servicios</h2>
 
+                        </div>
+                    </div>
+                    <div class="row row-feat">
+                        <div class="col-md-4 text-center">
+
+                            <!-- /.feature image -->
+                            <div class="feature-img">
+                                <img src="images/servicios.jpg" alt="image" class="img-responsive wow fadeInLeft">
                             </div>
                         </div>
-                        <div class="row row-feat">
-                            <div class="col-md-4 text-center">
 
-                                <!-- /.feature image -->
-                                <div class="feature-img">
-                                    <img src="images/servicios.jpg" alt="image" class="img-responsive wow fadeInLeft">
+                        <div class="col-md-8">
+
+                            <!-- /.feature 1 -->
+                            <div class="col-sm-6 feat-list">
+                                <i class="fa fa-clock-o  pe-5x pe-va wow fadeInUp"></i>
+                                <div class="inner">
+                                    <h4>Servicio Express</h4>
+                                    <p>La mejor opción en reparación y mantenimiento de línea blanca,aire acondicionado y cámaras de refrigeración.
+                                    </p>
                                 </div>
                             </div>
 
-                            <div class="col-md-8">
-
-                                <!-- /.feature 1 -->
-                                <div class="col-sm-6 feat-list">
-                                    <i class="fa fa-clock-o  pe-5x pe-va wow fadeInUp"></i>
-                                    <div class="inner">
-                                        <h4>Servicio Express</h4>
-                                        <p>La mejor opción en reparación y mantenimiento de línea blanca,aire acondicionado y cámaras de refrigeración.
-                                        </p>
-                                    </div>
+                            <!-- /.feature 2 -->
+                            <div class="col-sm-6 feat-list">
+                                <i class="fa fa-automobile pe-5x pe-va wow fadeInUp" data-wow-delay="0.2s"></i>
+                                <div class="inner">
+                                    <h4>Servicio a domicilio</h4>
+                                    <p>Contamos con amplios horarios de visita para que el cliente no se preocupe nadamás que de disfrutar a su familia.</p>
                                 </div>
+                            </div>
 
-                                <!-- /.feature 2 -->
-                                <div class="col-sm-6 feat-list">
-                                    <i class="fa fa-automobile pe-5x pe-va wow fadeInUp" data-wow-delay="0.2s"></i>
-                                    <div class="inner">
-                                        <h4>Servicio a domicilio</h4>
-                                        <p>Contamos con amplios horarios de visita para que el cliente no se preocupe nadamás que de disfrutar a su familia.</p>
-                                    </div>
-                                </div>
-
-                                <!-- /.feature 3 -->
-                                <!-- <div class="col-sm-6 feat-list">
+                            <!-- /.feature 3 -->
+                            <!-- <div class="col-sm-6 feat-list">
                         <i class="fa fa-wrench  pe-5x pe-va wow fadeInUp" data-wow-delay="0.4s"></i>
                         <div class="inner">
                             <h4>Refacciones originales</h4>
@@ -335,42 +347,42 @@
                         </div>
                     </div> -->
 
-                                <!-- /.feature 4 -->
-                                <div class="col-sm-6 feat-list">
-                                    <i class="fa fa-users pe-5x pe-va wow fadeInUp" data-wow-delay="0.6s"></i>
-                                    <div class="inner">
-                                        <h4>Técnicos capacitados</h4>
-                                        <p>Contamos con gente altamente capacitada y de total confianza, desde su llamada sabe el nombre del técnico que lo visitara.</p>
-                                    </div>
+                            <!-- /.feature 4 -->
+                            <div class="col-sm-6 feat-list">
+                                <i class="fa fa-users pe-5x pe-va wow fadeInUp" data-wow-delay="0.6s"></i>
+                                <div class="inner">
+                                    <h4>Técnicos capacitados</h4>
+                                    <p>Contamos con gente altamente capacitada y de total confianza, desde su llamada sabe el nombre del técnico que lo visitara.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
 
 
-                <!-- /.subscribe section -->
-                <div id="subscribe">
-                    <div class="subscribe fullscreen parallax" style="background-image:url('images/bg.jpg');" data-img-width="1920" data-img-height="1281" data-diff="100">
-                        <div class="overlay">
-                            <div class="container">
+            <!-- /.subscribe section -->
+            <div id="subscribe">
+                <div class="subscribe fullscreen parallax" style="background-image:url('images/bg.jpg');" data-img-width="1920" data-img-height="1281" data-diff="100">
+                    <div class="overlay">
+                        <div class="container">
 
-                                <!-- /.mail icon -->
-                                <div class="col-md-4 col-md-offset-4 text-center">
-                                    <i class="pe-7s-mail pe-va letter wow fadeInUp"></i>
-                                </div>
-                                <div class="col-md-8 col-md-offset-2 text-center">
-                                    <h1>¿Podemos ayudarle?</h1>
+                            <!-- /.mail icon -->
+                            <div class="col-md-4 col-md-offset-4 text-center">
+                                <i class="pe-7s-mail pe-va letter wow fadeInUp"></i>
+                            </div>
+                            <div class="col-md-8 col-md-offset-2 text-center">
+                                <h1>¿Podemos ayudarle?</h1>
 
-                                    <h3>Contáctenos y con gusto agendaremos la visita de un técnico</h3>
+                                <h3>Contáctenos y con gusto agendaremos la visita de un técnico</h3>
 
-                                    <div class="btn-section"><a href="#contacto" class="btn-default">Contacto</a></div>
-                                    <br><br>
+                                <div class="btn-section"><a href="#contacto" class="btn-default">Contacto</a></div>
+                                <br><br>
 
 
 
-                                    <!-- /.subscribe form -->
-                                    <!-- <div class="subscribe-form wow fadeInUp">
+                                <!-- /.subscribe form -->
+                                <!-- <div class="subscribe-form wow fadeInUp">
                             <form class="news-letter mailchimp" action="" role="form" method="POST">
                                 <input type="hidden" name="u" value="503bdae81fde8612ff4944435">
                                 <input type="hidden" name="id" value="bfdba52708">
@@ -378,82 +390,82 @@
                                 <button type="submit" class="subscribe-btn btn">Enviar</button>
                             </form>
                         </div> -->
-                                </div>
+                            </div>
 
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- /.screenshot section -->
+            <div id="screenshot">
+                <div class="container">
+                    <div class="text-center">
+                        <h2 class="wow fadeInLeft">Galería</h2>
+                        <div class="title-line wow fadeInRight"></div>
+                    </div>
+                    <div class="row screenshots">
+
+                        <div id="screenshots" class="owl-carousel">
+
+                            <!-- /.screenshot images -->
+                            <div class="screen wow fadeInUp">
+                                <a href="images/screenshot1.jpg" data-toggle="lightbox"><img src="images/screenshot1.jpg" alt="Screenshot" style="height:250px;"></a>
+                            </div>
+
+                            <div class="screen wow fadeInUp" data-wow-delay="0.1s">
+                                <a href="images/screenshot2.jpg" data-toggle="lightbox"><img src="images/screenshot2.jpg" alt="Screenshot" style="height:250px;"></a>
+                            </div>
+
+                            <div class="screen wow fadeInUp" data-wow-delay="0.2s">
+                                <a href="images/screenshot3.jpg" data-toggle="lightbox"><img src="images/screenshot3.jpg" alt="Screenshot" style="height:250px;"></a>
+                            </div>
+
+                            <div class="screen wow fadeInUp" data-wow-delay="0.3s">
+                                <a href="images/screenshot4.jpg" data-toggle="lightbox"><img src="images/screenshot4.jpg" alt="Screenshot" style="height:250px;"></a>
+                            </div>
+
+                            <div class="screen wow fadeInUp" data-wow-delay="0.4s">
+                                <a href="images/screenshot5.jpg" data-toggle="lightbox"><img src="images/screenshot5.jpg" alt="Screenshot" style="height:250px;"></a>
+                            </div>
+
+                            <div class="screen wow fadeInUp" data-wow-delay="0.5s">
+                                <a href="images/screenshot6.jpg" data-toggle="lightbox"><img src="images/screenshot6.jpg" alt="Screenshot" style="height:250px;"></a>
+                            </div>
+
+                            <div class="screen wow fadeInUp" data-wow-delay="0.6s">
+                                <a href="images/screenshot7.jpg" data-toggle="lightbox"><img src="images/screenshot7.jpg" alt="Screenshot" style="height:250px;"></a>
+                            </div>
+
+                            <div class="screen wow fadeInUp" data-wow-delay="0.7s">
+                                <a href="images/screenshot8.jpg" data-toggle="lightbox"><img src="images/screenshot8.jpg" alt="Screenshot" style="height:250px;"></a>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
 
-                <!-- /.screenshot section -->
-                <div id="screenshot">
-                    <div class="container">
-                        <div class="text-center">
-                            <h2 class="wow fadeInLeft">Galería</h2>
-                            <div class="title-line wow fadeInRight"></div>
-                        </div>
-                        <div class="row screenshots">
-
-                            <div id="screenshots" class="owl-carousel">
-
-                                <!-- /.screenshot images -->
-                                <div class="screen wow fadeInUp">
-                                    <a href="images/screenshot1.jpg" data-toggle="lightbox"><img src="images/screenshot1.jpg" alt="Screenshot" style="height:250px;"></a>
-                                </div>
-
-                                <div class="screen wow fadeInUp" data-wow-delay="0.1s">
-                                    <a href="images/screenshot2.jpg" data-toggle="lightbox"><img src="images/screenshot2.jpg" alt="Screenshot" style="height:250px;"></a>
-                                </div>
-
-                                <div class="screen wow fadeInUp" data-wow-delay="0.2s">
-                                    <a href="images/screenshot3.jpg" data-toggle="lightbox"><img src="images/screenshot3.jpg" alt="Screenshot" style="height:250px;"></a>
-                                </div>
-
-                                <div class="screen wow fadeInUp" data-wow-delay="0.3s">
-                                    <a href="images/screenshot4.jpg" data-toggle="lightbox"><img src="images/screenshot4.jpg" alt="Screenshot" style="height:250px;"></a>
-                                </div>
-
-                                <div class="screen wow fadeInUp" data-wow-delay="0.4s">
-                                    <a href="images/screenshot5.jpg" data-toggle="lightbox"><img src="images/screenshot5.jpg" alt="Screenshot" style="height:250px;"></a>
-                                </div>
-
-                                <div class="screen wow fadeInUp" data-wow-delay="0.5s">
-                                    <a href="images/screenshot6.jpg" data-toggle="lightbox"><img src="images/screenshot6.jpg" alt="Screenshot" style="height:250px;"></a>
-                                </div>
-
-                                <div class="screen wow fadeInUp" data-wow-delay="0.6s">
-                                    <a href="images/screenshot7.jpg" data-toggle="lightbox"><img src="images/screenshot7.jpg" alt="Screenshot" style="height:250px;"></a>
-                                </div>
-
-                                <div class="screen wow fadeInUp" data-wow-delay="0.7s">
-                                    <a href="images/screenshot8.jpg" data-toggle="lightbox"><img src="images/screenshot8.jpg" alt="Screenshot" style="height:250px;"></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- /.client section -->
+            <!-- /.client section -->
 
 
 
 
-                <!-- /.download section -->
-                <div id="download">
-                    <div class="action fullscreen parallax" style="background-image:url('images/bg.jpg');" data-img-width="2000" data-img-height="1334" data-diff="100">
-                        <div class="overlay">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-md-8 col-md-offset-2 col-sm-12 text-center">
-                                        <h2 class="wow fadeInLeft">TecniPlus
-                                        </h2>
-                                        <h3 class="download-text wow fadeInRight">En TECNIPLUS sabemos que los más importante es la satisfacción de nuestros clientes. Es por este motivo que nuestro compromiso es ofrecer un servicio que cumpla y supere sus expectativas. <br>Nuestro enfoque está
-                                            basado en el respeto y la confianza,fomentando un comportamiento ético y de valor agregado. </h3>
-                                        <h3 class="download-text wow fadeInRight">
-                                            TECNIPLUS= CONFÍANZA Y VALOR PERSONAL</h3>
-                                        <br>
-                                        <!-- /.download buttons -->
-                                        <!-- <ul class="download-store">
+            <!-- /.download section -->
+            <div id="download">
+                <div class="action fullscreen parallax" style="background-image:url('images/bg.jpg');" data-img-width="2000" data-img-height="1334" data-diff="100">
+                    <div class="overlay">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-8 col-md-offset-2 col-sm-12 text-center">
+                                    <h2 class="wow fadeInLeft">TecniPlus
+                                    </h2>
+                                    <h3 class="download-text wow fadeInRight">En TECNIPLUS sabemos que los más importante es la satisfacción de nuestros clientes. Es por este motivo que nuestro compromiso es ofrecer un servicio que cumpla y supere sus expectativas. <br>Nuestro enfoque está basado
+                                        en el respeto y la confianza,fomentando un comportamiento ético y de valor agregado. </h3>
+                                    <h3 class="download-text wow fadeInRight">
+                                        TECNIPLUS= CONFÍANZA Y VALOR PERSONAL</h3>
+                                    <br>
+                                    <!-- /.download buttons -->
+                                    <!-- <ul class="download-store">
                                 <li class="appstorebutton iphone wow fadeInUp">
                                     <a href="#"><i class="fa fa-apple"></i><p><small>Available on the</small></br>App Store</p></a>
                                 </li>
@@ -461,106 +473,106 @@
                                     <a href="#"><i class="fa fa-android"></i><p><small>Available on the</small></br>Play Store</p></a>
                                 </li>
                             </ul> -->
-                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- /.CONTACTO -->
-                <!-- Widgets Start -->
-                <div id="contacto">
-                    <div class="content">
+            </div>
+            <!-- /.CONTACTO -->
+            <!-- Widgets Start -->
+            <div id="contacto">
+                <div class="content">
 
-                        <h1 class="logo">Contacto <span>TecniPlus</span></h1>
+                    <h1 class="logo">Contacto <span>TecniPlus</span></h1>
 
-                        <div class="contact-wrapper animated bounceInUp">
-                            <div class="contact-form">
-                                <!-- <h3>Contact us</h3> -->
-                                <form action="">
-                                    <p>
-                                        <label>Nombre</label>
-                                        <input type="text" name="fullname">
-                                    </p>
-                                    <p>
-                                        <label>Correo</label>
-                                        <input type="email" name="email">
-                                    </p>
-                                    <p>
-                                        <label>Movil</label>
-                                        <input type="tel" name="phone">
-                                    </p>
-                                    <p>
-                                        <label>Asunto</label>
-                                        <input type="text" name="affair">
-                                    </p>
-                                    <p class="block">
-                                        <label>Mensaje</label>
-                                        <textarea name="message" rows="3"></textarea>
-                                    </p>
-                                    <p class="block">
-                                        <button>
+                    <div class="contact-wrapper animated bounceInUp">
+                        <div class="contact-form">
+                            <!-- <h3>Contact us</h3> -->
+                            <form action="">
+                                <p>
+                                    <label>Nombre</label>
+                                    <input type="text" name="fullname">
+                                </p>
+                                <p>
+                                    <label>Correo</label>
+                                    <input type="email" name="email">
+                                </p>
+                                <p>
+                                    <label>Movil</label>
+                                    <input type="tel" name="phone">
+                                </p>
+                                <p>
+                                    <label>Asunto</label>
+                                    <input type="text" name="affair">
+                                </p>
+                                <p class="block">
+                                    <label>Mensaje</label>
+                                    <textarea name="message" rows="3"></textarea>
+                                </p>
+                                <p class="block">
+                                    <button>
                             Enviar
                         </button>
-                                    </p>
-                                </form>
-                            </div>
-
+                                </p>
+                            </form>
                         </div>
 
                     </div>
+
                 </div>
+            </div>
 
-                <!-- Widgets End -->
-                <!-- Foot Note Start -->
+            <!-- Widgets End -->
+            <!-- Foot Note Start -->
 
-                <!-- /.footer -->
-                <footer id="footer">
-                    <div class="container">
-                        <div>
-                            <h2 style="text-align: center;">Mas <span class="highlight">Información</span> </h2>
-                            <ul style="text-align: center;">
-                                <li><i class="fa fa-phone"></i>5540620423</li>
-                                <li><i class="fa fa-envelope"></i> contacto@tecniplus-mexico.com</li>
+            <!-- /.footer -->
+            <footer id="footer">
+                <div class="container">
+                    <div>
+                        <h2 style="text-align: center;">Mas <span class="highlight">Información</span> </h2>
+                        <ul style="text-align: center;">
+                            <li><i class="fa fa-phone"></i>5540620423</li>
+                            <li><i class="fa fa-envelope"></i> contacto@tecniplus-mexico.com</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 col-sm-offset-4">
+                        <!-- /.social links -->
+                        <div class="social text-center">
+                            <ul>
+                                <!-- <li><a class="wow fadeInUp" href="https://twitter.com/"><i class="fa fa-twitter"></i></a></li> -->
+                                <li><a class="wow fadeInUp" href="https://www.facebook.com/Tecniplus-109653517281783/" data-wow-delay="0.2s"><i class="fa fa-facebook"></i></a></li>
+
+                                <!-- <li><a class="wow fadeInUp" href="https://instagram.com/" data-wow-delay="0.6s"><i class="fa fa-instagram"></i></a></li> -->
                             </ul>
                         </div>
-                        <div class="col-sm-4 col-sm-offset-4">
-                            <!-- /.social links -->
-                            <div class="social text-center">
-                                <ul>
-                                    <!-- <li><a class="wow fadeInUp" href="https://twitter.com/"><i class="fa fa-twitter"></i></a></li> -->
-                                    <li><a class="wow fadeInUp" href="https://www.facebook.com/Tecniplus-109653517281783/" data-wow-delay="0.2s"><i class="fa fa-facebook"></i></a></li>
-
-                                    <!-- <li><a class="wow fadeInUp" href="https://instagram.com/" data-wow-delay="0.6s"><i class="fa fa-instagram"></i></a></li> -->
-                                </ul>
-                            </div>
-                            <div class="text-center wow fadeInUp" style="font-size: 14px;">Copyright<a href="http://www.gruponarmar.com" target="_blank"> TecniPlus. </a></div>
-                            <div class="text-center wow fadeInUp" style="font-size: 14px;">Desarrollado por <a href="http://www.arca-soft.com/" target="_blank"> ArcaSoft. </a></div>
-                            <a href="#" class="scrollToTop"><i class="pe-7s-up-arrow pe-va"></i></a>
-                        </div>
+                        <div class="text-center wow fadeInUp" style="font-size: 14px;">Copyright<a href="http://www.gruponarmar.com" target="_blank"> TecniPlus. </a></div>
+                        <div class="text-center wow fadeInUp" style="font-size: 14px;">Desarrollado por <a href="http://www.arca-soft.com/" target="_blank"> ArcaSoft. </a></div>
+                        <a href="#" class="scrollToTop"><i class="pe-7s-up-arrow pe-va"></i></a>
                     </div>
-                </footer>
+                </div>
+            </footer>
 
-                <!-- /.javascript files -->
-                <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-                <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-                <script src="js/jquery.js"></script>
-                <script src="js/bootstrap.min.js"></script>
-                <script src="js/custom.js"></script>
-                <script src="js/jquery.sticky.js"></script>
-                <script src="js/wow.min.js"></script>
-                <script src="js/owl.carousel.min.js"></script>
-                <script src="js/ekko-lightbox-min.js"></script>
-                <script type="text/javascript">
-                    $(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
-                        event.preventDefault();
-                        $(this).ekkoLightbox();
-                    });
-                </script>
-                <script>
-                    new WOW().init();
-                </script>
+            <!-- /.javascript files -->
+            <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+            <script src="js/jquery.js"></script>
+            <script src="js/bootstrap.min.js"></script>
+            <script src="js/custom.js"></script>
+            <script src="js/jquery.sticky.js"></script>
+            <script src="js/wow.min.js"></script>
+            <script src="js/owl.carousel.min.js"></script>
+            <script src="js/ekko-lightbox-min.js"></script>
+            <script type="text/javascript">
+                $(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
+                    event.preventDefault();
+                    $(this).ekkoLightbox();
+                });
+            </script>
+            <script>
+                new WOW().init();
+            </script>
 </body>
 
 </html>
