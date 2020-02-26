@@ -822,6 +822,20 @@ ul {
     } */
 
 
+/* CONTACT INFO */
+
+.contact-info {
+    background: #000;
+}
+
+.contact-info h4,
+.contact-info ul,
+.contact-info p {
+    text-align: center;
+    margin: 0 0 1rem 0;
+}
+
+
 /* CONTACTO ESTILO */
 
 #footer {
