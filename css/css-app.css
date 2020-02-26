@@ -558,7 +558,7 @@ a:hover {
 }
 
 #client img {
-    max-height: 50px;
+    max-height: 100px;
     margin: 0 20px;
     opacity: 1;
     transition: all 0.3s ease;
